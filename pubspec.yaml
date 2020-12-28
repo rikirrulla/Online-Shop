@@ -1,0 +1,52 @@
+name: online_shop
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  percent_indicator: ^2.1.8
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_svg: ^0.18.0
+  http: ^0.12.2
+  fluttertoast: ^7.1.6
+  intl: 0.15.7
+  flutter_progress_button: ^0.6.4
+  shared_preferences: ^0.5.12+4
+  grouped_buttons: ^1.0.4
+  uuid: ^2.2.2
+
+
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+
+  fonts:
+    - family: Countryside two
+      fonts:
+        - asset: fonts/CountrysideTwo.ttf
+
+    - family: Lato
+      fonts:
+        - asset: fonts/Lato-Regular.ttf
